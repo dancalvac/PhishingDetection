@@ -4,3 +4,54 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python logs and outputs
+*.log
+*.out
+
+# Model files (optional)
+*.h5
+*.pt
+*.pth
+*.joblib
+*.sav
+
+# Kaggle and Colab artifacts (optional)
+kaggle.json
+*.zip
+*.tar
+*.gz
+
+# Node / miscellaneous
+node_modules/
+
+# --- R (if you use R in the repo) ---
+.Rhistory
+.RData
+.Rproj.user/
